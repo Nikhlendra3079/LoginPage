@@ -1,0 +1,93 @@
+.formlogin {
+    margin-top: 2em;
+    width: 300px;
+    height: 500px;
+    background-color: #16181c;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_title {
+    font-size: 25pt;
+    font-weight: bolder;
+}
+
+.margin {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+span {
+    margin-left: 0;
+    margin-bottom: .5em;
+}
+
+input {
+    margin-bottom: .1em;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: #e4e1dc;
+    border: #000;
+    text-indent: 10px;
+    background-color: #000;
+}
+
+.passacount {
+    display: flex;
+    width: 251px;
+}
+
+.passacount a {
+    margin-top: 10px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.passacount a:hover {
+    text-decoration: underline;
+}
+
+.recaptcha {
+    width: 100px;
+    transform: scale(0.84);
+    transform-origin: 0 0;
+    margin-left: 0;
+    margin-top: 1em;
+}
+
+.error_captcha p {
+    color: rgba(228, 56, 56, 0.705);
+    font-size: 13pt;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.email_verification p,
+.password_verification p {
+    color: rgba(228, 56, 56, 0.705);
+    font-size: 10pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.label_password {
+    width: 250px;
+    margin-left: 0;
+    margin-top: .3em;
+    display: flex;
+    flex-direction: row;
+}

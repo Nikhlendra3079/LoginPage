@@ -1,0 +1,9 @@
+.button input {
+    background-color: #3cb371;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.button input:hover {
+    background-color: #2e8a57;
+}
